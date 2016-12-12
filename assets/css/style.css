@@ -1,0 +1,39 @@
+body {
+    background-color: #FFA726;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+}
+
+.col, .row {
+    width: 100%;
+}
+
+.col {
+    padding: 15px;
+}
+
+
+.input, .result, .desc {
+    padding: 15px;
+}
+
+.input, .result {
+    height: 350px;
+}
+
+.desc, .result {
+    color: white;
+}
+
+.result {
+    background-color: #EF6C00;
+}
+
+.input {
+    background-color: #ffffff;
+}
