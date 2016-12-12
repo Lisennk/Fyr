@@ -2,6 +2,7 @@ body {
     background-color: #FFA726;
     max-width: 1000px;
     margin: auto;
+    font-family: 'Roboto Slab', serif;
 }
 
 .row {
@@ -24,16 +25,31 @@ body {
 
 .input, .result {
     height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
+.desc {
+    text-align: center;
+}
 .desc, .result {
     color: white;
 }
 
 .result {
     background-color: #EF6C00;
+    background-image: url('../img/fox.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100px;
 }
 
 .input {
     background-color: #ffffff;
+}
+
+.title {
+    padding: 10px;
+    color: brown;
+    text-align: center;
 }
