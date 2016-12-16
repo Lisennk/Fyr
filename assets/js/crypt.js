@@ -1,4 +1,5 @@
 var alphabet = "ОЕАИНТСРВЛКМДПУЯЫЬГЗБЧЙХЖШЮЙЩЭФЪЁЦ";
+var fyrphabet = "ФЫР-";
 
 function encode(text)
 {
